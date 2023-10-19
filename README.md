@@ -37,14 +37,14 @@ license via application or evaluate the application using Aspose.Imaging .NET in
 Please issue the command :
 
 ```
-dotnet add package Aspose.Imaging Image merge
+dotnet add package Aspose.Imaging.Image-Merge
 ```
 
 ### Usage
 Use from command line :
 
 ```
-dotnet Aspose.Imaging.MicroApps.Merge.dll --input IMG_8472.JPG+IMG_8473.JPG+IMG_8475.JPG+IMG_8476.JPG+IMG_8479.JPG+IMG_8483.JPG --output output.png -background-color lightgray -margin 5 --max-columns 2 --max-rows 3
+dotnet Aspose.Imaging.MicroApps.Merge.dll --input IMG_8472.JPG+IMG_8473.JPG+IMG_8475.JPG+IMG_8476.JPG+IMG_8479.JPG+IMG_8483.JPG --output output.png -background-color lightgray -margin 5 --max-columns 2 --max-rows 3 -W 500
 ```
 
 Use from code:

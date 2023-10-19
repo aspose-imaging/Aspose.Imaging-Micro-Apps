@@ -5,9 +5,9 @@ Work over [Aspose.Imaging .NET API](https://products.aspose.com/imaging/net/).
 
 **Following Micro Applications are supported:**
 
-## Aspose.Imaging Image Merge App 
+## Aspose.Imaging Image Merge Micro Application 
 
-Allows creation of collage in desired image format from several input images. 
+It allows creation of collage from several input images in desired image format.
 
 ### Competitive features
 
@@ -20,6 +20,8 @@ Allows creation of collage in desired image format from several input images.
 - Resulting image may be limited by width, height;
 
 - Setting of margin size and background color are supported;
+
+- We always keep the aspect ratio on merge, so the proportions of your photo are not affected;
 
 - Aspose.Imaging Image merge application may be used via the command line or consumed by your C# code via.NET7 compatible API.
 

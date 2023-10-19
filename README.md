@@ -45,34 +45,34 @@ dotnet add package Aspose.Imaging.Image-Merge
 ### Usage
 **Use from command line :**
 
-```
+``` s
 dotnet Aspose.Imaging.MicroApps.Merge.dll --input photo_1.jpg+photo_2.jpg+photo_3.jpg+photo_4.jpg+photo_5.jpg+photo_6.jpg --output photo_collage_unlicensed.png --format png --adjustment Biggest --direction Vertical --background-color MediumSeaGreen --margin-size 3 --max-columns 2 --max-rows 3 --max-width 500
 ```
 
 **Use from code:**
 
 ``` csharp
-			var options = new ImagingMergeOptions()
-			{
-				InputImages = "photo_1.jpg+photo_2.jpg+photo_3.jpg+photo_4.jpg+photo_5.jpg+photo_6.jpg".Split("+"),
-				ToFormat = "png",
-				BackgroundColor = "MediumSeaGreen",
-				Direction = MergeDirection.Vertical,
-				MarginSize = 3,
-				AdjustmentType = MergeAdjustmentTypes.Biggest,
-				OutputImagePath = "photo_collage_licensed.png",
-				MaxRows = 3,
-				MaxColumns = 2,
-				MaxWidth = 500
-			};
+var options = new ImagingMergeOptions()
+{
+	InputImages = "photo_1.jpg+photo_2.jpg+photo_3.jpg+photo_4.jpg+photo_5.jpg+photo_6.jpg".Split("+"),
+	ToFormat = "png",
+	BackgroundColor = "MediumSeaGreen",
+	Direction = MergeDirection.Vertical,
+	MarginSize = 3,
+	AdjustmentType = MergeAdjustmentTypes.Biggest,
+	OutputImagePath = "photo_collage_licensed.png",
+	MaxRows = 3,
+	MaxColumns = 2,
+	MaxWidth = 500
+};
 
-			// You may set path to your Aspose.Imaging .NET license file via parameters
-			if (isLicensed)
-			{
-				options.LicenseFile = "Aspose.Total.Product.Family.lic";
-			}
+// You may set path to your Aspose.Imaging .NET license file via parameters
+if (isLicensed)
+{
+	options.LicenseFile = "Aspose.Total.Product.Family.lic";
+}
 
-			await MergeTasks.Create(options).Execute();
+await MergeTasks.Create(options).Execute();
 ```
 
 ### Examples of output images:

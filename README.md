@@ -1,11 +1,11 @@
-# Aspose.Imaging-Micro-Apps
-Aspose.Imaging Micro Applications supply high-level image processing scenarious useful for end-user.
+# Aspose.Imaging Micro Apps
+Aspose.Imaging Micro Applications supply high-level image processing scenarios useful for end-users.
 
 Work over [Aspose.Imaging .NET API](https://products.aspose.com/imaging/net/).
 
-Following Micro Applications are supported :
+**Following Micro Applications are supported:**
 
-## Aspose.Imaging Image merge App 
+## Aspose.Imaging Image Merge App 
 
 Allows creation of collage in desired image format from several input images. 
 
@@ -15,22 +15,22 @@ Allows creation of collage in desired image format from several input images.
 
 - Various merge layouts are supported (horizontal, vertical, grid);
 
-- Various image adjustements are supported (to biggest image, to smallest image or without adjustement);
+- Various image adjustments are supported (to the biggest image, to the smallest image, or without adjustment);
 
-- Resultuing image may be limited by width, height;
+- Resulting image may be limited by width, height;
 
-- Setting of margin size and background coror are supported;
+- Setting of margin size and background color are supported;
 
-- ApplicationAspose.Imaging Image merge application may be used via command line or consumed by your C# code via .NET7 compatible API.
+- Aspose.Imaging Image merge application may be used via the command line or consumed by your C# code via.NET7 compatible API.
 
 ### Licensing
 
-Algthough Aspose.Imaging Image merge application is free, Aspose.Imaging .NET is licensed as usually, so you may reuse you reuse your
+Although Aspose.Imaging Image merge application is free, Aspose.Imaging .NET is licensed as usual, so you may reuse you reuse your
 license via application or evaluate the application using Aspose.Imaging .NET in trial mode. 
 
 ### System Requirements
-- .NET7 or higher compatible OS;
-- Aspose.Imaging Image merge application installed.
+-.NET7 or higher compatible OS;
+-Aspose.Imaging Image Merge application installed.
 
 ### Installation
 
@@ -41,13 +41,13 @@ dotnet add package Aspose.Imaging.Image-Merge
 ```
 
 ### Usage
-Use from command line :
+**Use from command line :**
 
 ```
 dotnet Aspose.Imaging.MicroApps.Merge.dll --input IMG_8472.JPG+IMG_8473.JPG+IMG_8475.JPG+IMG_8476.JPG+IMG_8479.JPG+IMG_8483.JPG --output output.png -background-color lightgray -margin 5 --max-columns 2 --max-rows 3 -W 500
 ```
 
-Use from code:
+**Use from code:**
 
 ``` csharp
 			var options = new ImagingMergeOptions()

@@ -1,7 +1,7 @@
 # Aspose.Imaging-Micro-Apps
 Aspose.Imaging Micro Applications supply high-level image processing scenarious useful for end-user.
 
-Work over [Aspose.Imaging .NET API] (https://products.aspose.com/imaging/net/).
+Work over [Aspose.Imaging .NET API](https://products.aspose.com/imaging/net/).
 
 Following Micro Applications are supported :
 
@@ -11,7 +11,7 @@ Allows creation of collage in desired image format from several input images.
 
 ### Competitive features
 
-- Various input and output image formats are supported as per Aspose.[Imaging supported file formats list] (https://docs.aspose.com/imaging/net/supported-file-formats/); 
+- Various input and output image formats are supported as per [Aspose.Imaging supported file formats list](https://docs.aspose.com/imaging/net/supported-file-formats/); 
 
 - Various merge layouts are supported (horizontal, vertical, grid);
 

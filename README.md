@@ -31,7 +31,8 @@ Although Aspose.Imaging Image merge application is free, Aspose.Imaging .NET is 
 license via application or evaluate the application using Aspose.Imaging .NET in trial mode. 
 
 ### System Requirements
--.NET7 or higher compatible OS;
+-.NET7 on Windows, Linux, MacOs;
+
 -Aspose.Imaging Image Merge application installed.
 
 ### Installation

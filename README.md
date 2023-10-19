@@ -46,7 +46,7 @@ dotnet add package Aspose.Imaging.Image-Merge
 **Use from command line :**
 
 ```
-dotnet Aspose.Imaging.MicroApps.Merge.dll --input IMG_8472.JPG+IMG_8473.JPG+IMG_8475.JPG+IMG_8476.JPG+IMG_8479.JPG+IMG_8483.JPG --output output.png -background-color lightgray -margin 5 --max-columns 2 --max-rows 3 -W 500
+dotnet Aspose.Imaging.MicroApps.Merge.dll --input photo_1.jpg+photo_2.jpg+photo_3.jpg+photo_4.jpg+photo_5.jpg+photo_6.jpg --output photo_collage_unlicensed.png --format png --adjustment Biggest --direction Vertical --background-color MediumSeaGreen --margin-size 3 --max-columns 2 --max-rows 3 --max-width 500
 ```
 
 **Use from code:**
@@ -54,15 +54,16 @@ dotnet Aspose.Imaging.MicroApps.Merge.dll --input IMG_8472.JPG+IMG_8473.JPG+IMG_
 ``` csharp
 			var options = new ImagingMergeOptions()
 			{
-				InputImages = "IMG_8472.JPG+IMG_8473.JPG+IMG_8475.JPG+IMG_8476.JPG+IMG_8479.JPG+IMG_8483.JPG".Split("+"),
+				InputImages = "photo_1.jpg+photo_2.jpg+photo_3.jpg+photo_4.jpg+photo_5.jpg+photo_6.jpg".Split("+"),
 				ToFormat = "png",
-				BackgroundColor = "LightGray",
-				Direction = MergeDirection.Horizontal,
-				MarginSize = 5,
+				BackgroundColor = "MediumSeaGreen",
+				Direction = MergeDirection.Vertical,
+				MarginSize = 3,
 				AdjustmentType = MergeAdjustmentTypes.Biggest,
-				OutputImagePath = "output.png",
+				OutputImagePath = "photo_collage_licensed.png",
 				MaxRows = 3,
-				MaxColumns = 2
+				MaxColumns = 2,
+				MaxWidth = 500
 			};
 
 			// You may set path to your Aspose.Imaging .NET license file via parameters
@@ -76,8 +77,8 @@ dotnet Aspose.Imaging.MicroApps.Merge.dll --input IMG_8472.JPG+IMG_8473.JPG+IMG_
 
 ### Examples of output images:
 
-![Example of collage produced by Aspose.Imaging Image merge Apps from photos](assets/images/photos.png)
+![Example of collage produced by Aspose.Imaging Image merge Apps via command line](assets/images/photo_collage_unlicensed.png)
 
-![Example of collage produced by Aspose.Imaging Image merge Apps from rectangular shapes](assets/images/rectangular-shapes.png)
+![Example of collage produced by Aspose.Imaging Image merge Apps from rectangular shapes](assets/images/photo_collage_licensed.png)
 
 

@@ -3,51 +3,38 @@ Aspose.Imaging Micro Applications supply high-level image processing scenarios u
 
 Work over [Aspose.Imaging .NET API](https://products.aspose.com/imaging/net/).
 
-**Following Micro Applications are supported:**
+## Following Micro Applications are supported:
 
-## Aspose.Imaging Image Merge Micro Application 
+[Aspose.Imaging Image Merge Micro Application](https://products.aspose.app/imaging/image-merge)  
 
-It allows creation of collage from several input images in desired image format.
+[Aspose.Imaging Image Convert Micro Application](https://products.aspose.app/imaging/image-convert) 
 
-### Competitive features
-
-- Various input and output image formats are supported as per [Aspose.Imaging supported file formats list](https://docs.aspose.com/imaging/net/supported-file-formats/); 
-
-- Various merge layouts are supported (horizontal, vertical, grid);
-
-- Various image adjustments are supported (to the biggest image, to the smallest image, or without adjustment);
-
-- Resulting image may be limited by width, height;
-
-- Setting of margin size and background color are supported;
-
-- We always keep the aspect ratio on merge, so the proportions of your photo are not affected;
-
-- Aspose.Imaging Image merge application may be used via the command line or consumed by your C# code via.NET7 compatible API.
-
-### Licensing
-
-Although Aspose.Imaging Image merge application is free, Aspose.Imaging .NET is licensed as usual, so you may reuse you reuse your
-license via application or evaluate the application using Aspose.Imaging .NET in trial mode. 
+[Aspose.Imaging Image Resize Micro Application](https://products.aspose.app/imaging/image-resize) 
 
 ### System Requirements
 -.NET7 on Windows, Linux, MacOs;
 
--Aspose.Imaging Image Merge application installed.
+- Choosen by you Aspose.Imaging Micro application(s) installed.
 
 ### Installation
 
 Please issue the command :
 
 ```
-dotnet add package Aspose.Imaging.Image-Merge
+dotnet tool install --global Aspose.Imaging.Image-Merge
+```
+
+If you've already installed the application - update supported via the command :
+
+```
+dotnet tool update --global Aspose.Imaging.Image-Merge --version 23.11.2
 ```
 
 ### Usage
-**Use from command line :**
+**Use from command line:**
 
-``` s
-dotnet Aspose.Imaging.MicroApps.Merge.dll --input photo_1.jpg+photo_2.jpg+photo_3.jpg+photo_4.jpg+photo_5.jpg+photo_6.jpg --output photo_collage_unlicensed.png --format png --adjustment Biggest --direction Vertical --background-color MediumSeaGreen --margin-size 3 --max-columns 2 --max-rows 3 --max-width 500
+``` 
+Aspose.Imaging.Image-Merge --input photo_1.jpg+photo_2.jpg+photo_3.jpg+photo_4.jpg+photo_5.jpg+photo_6.jpg --output photo_collage_unlicensed.png --format png --adjustment Biggest --direction Vertical --background-color MediumSeaGreen --margin-size 3 --max-columns 2 --max-rows 3 --max-width 500
 ```
 
 **Use from code:**
@@ -64,7 +51,7 @@ var options = new ImagingMergeOptions()
 	OutputImagePath = "photo_collage_licensed.png",
 	MaxRows = 3,
 	MaxColumns = 2,
-	MaxWidth = 500
+    MaxWidth = 500
 };
 
 // You may set path to your Aspose.Imaging .NET license file via parameters
@@ -81,5 +68,7 @@ await MergeTasks.Create(options).Execute();
 ![Example of collage produced by Aspose.Imaging Image merge Apps via command line](assets/images/photo_collage_unlicensed.png)
 
 ![Example of collage produced by Aspose.Imaging Image merge Apps from rectangular shapes](assets/images/photo_collage_licensed.png)
+
+![Example of programmatic use (requires pre-installed Aspose.Imaging Image Merge App)](exampes/ImageMerge)
 
 

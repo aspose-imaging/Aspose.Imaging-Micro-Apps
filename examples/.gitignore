@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+**/obj2/
+**/*.suo
+**/*.user
+/src/Core/Aspose.Imaging.xml
+/external/Dynabic.Metering
+build-out
+/src/Aspose.Imaging.2012.sln
+/src/Aspose.Imaging.sln
+/src/Aspose.Imaging2008.sln
+/test/BlackBoxTest/Aspose.Imaging.BlackBoxTest.xml
+**/.vs/
+**/packages/
+/misc/ImagingReleaseQATester/Tests/testdata/
+/misc/ImagingReleaseQATester/Tests/.vscode
+/testdata

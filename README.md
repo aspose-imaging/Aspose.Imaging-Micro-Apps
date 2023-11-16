@@ -5,11 +5,11 @@ Work over [Aspose.Imaging .NET API](https://products.aspose.com/imaging/net/).
 
 ## Following Micro Applications are supported:
 
-[Aspose.Imaging Image Merge Micro Application](https://products.aspose.app/imaging/image-merge)  
+[Aspose.Imaging Image Merge Micro Application](https://releases.aspose.app/imaging/image-merge-app-net/)  
 
-[Aspose.Imaging Image Convert Micro Application](https://products.aspose.app/imaging/image-convert) 
+[Aspose.Imaging Image Convert Micro Application](https://releases.aspose.app/imaging/image-convert-app-net/) 
 
-[Aspose.Imaging Image Resize Micro Application](https://products.aspose.app/imaging/image-resize) 
+[Aspose.Imaging Image Resize Micro Application](https://releases.aspose.app/imaging/image-resize-app-net/) 
 
 ### System Requirements
 -.NET7 on Windows, Linux, MacOs;
@@ -69,6 +69,6 @@ await MergeTasks.Create(options).Execute();
 
 ![Example of collage produced by Aspose.Imaging Image merge Apps from rectangular shapes](assets/images/photo_collage_licensed.png)
 
-![Example of programmatic use (requires pre-installed Aspose.Imaging Image Merge App)](exampes/ImageMerge)
+![Example of programmatic use (requires pre-installed Aspose.Imaging Image Merge App)](examples/ImageMerge)
 
 

@@ -69,6 +69,6 @@ await MergeTasks.Create(options).Execute();
 
 ![Example of collage produced by Aspose.Imaging Image merge Apps from rectangular shapes](assets/images/photo_collage_licensed.png)
 
-![Example of programmatic use (requires pre-installed Aspose.Imaging Image Merge App)](examples/ImageMerge)
+![Example of programmatic use (requires pre-installed Aspose.Imaging Micro Apps)](examples)
 
 

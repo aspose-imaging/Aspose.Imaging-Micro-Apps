@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="photo_1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="photo_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="photo_3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="photo_4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="photo_5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="photo_6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Imaging.MergeApi">
+      <HintPath>D:\ISC\Workspace\Aspose.Imaging.MicroApps\testdata\build-out\AddRef\Merge\Dependencies\Aspose.Imaging.MergeApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Imaging.MicroApps.API">
+      <HintPath>D:\ISC\Workspace\Aspose.Imaging.MicroApps\testdata\build-out\AddRef\Merge\Dependencies\Aspose.Imaging.MicroApps.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Imaging.MicroApps.Common">
+      <HintPath>D:\ISC\Workspace\Aspose.Imaging.MicroApps\testdata\build-out\AddRef\Merge\Dependencies\Aspose.Imaging.MicroApps.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspose.Imaging" Version="23.10.0.0" />
+  </ItemGroup>
+</Project>
